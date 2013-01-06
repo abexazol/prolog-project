@@ -1,0 +1,25 @@
+man  = {alan, barry, colin, dave, eric}.
+
+women = {christine, tina, sarah, ruth, zoe}.
+
+
+alan: christine > tina > zoe > ruth > sarah.
+
+barry: zoe > christine > ruth > sarah > tina.
+
+colin: christine > ruth > tina > sarah > zoe.
+
+dave: zoe > ruth > christine > sarah > tina.
+
+eric: zoe > ruth > christine > sarah > tina.
+ 
+
+zoe: eric > alan > dave > barry > colin.
+
+christine: dave > eric > barry > alan > colin.
+
+ruth: alan > dave > barry > colin > eric.
+
+sarah: colin > barry > dave > alan > eric.
+
+tina: dave > barry > colin > eric > alan.

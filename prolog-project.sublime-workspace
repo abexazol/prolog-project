@@ -1,0 +1,1124 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Pre",
+				"Prefsmodif"
+			],
+			[
+				"au",
+				"autocomplete_list"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"si",
+				"simdata"
+			],
+			[
+				"sim",
+				"simulationdata"
+			],
+			[
+				"put",
+				"putStr"
+			],
+			[
+				"conP",
+				"convertPaths"
+			],
+			[
+				"JSONS",
+				"JSONStep"
+			],
+			[
+				"do",
+				"down"
+			],
+			[
+				"Sim",
+				"SimulationData"
+			],
+			[
+				"gho",
+				"ghostpaths"
+			],
+			[
+				"pa",
+				"pacmanpath"
+			],
+			[
+				"ghos",
+				"ghostStates"
+			],
+			[
+				"Si",
+				"SimulationData"
+			],
+			[
+				"tota",
+				"totalDistance"
+			],
+			[
+				"Blo",
+				"BlockablePath"
+			],
+			[
+				"steps",
+				"stepsDone"
+			],
+			[
+				"bloP",
+				"blockPath"
+			],
+			[
+				"bp",
+				"blockPaths"
+			],
+			[
+				"newp",
+				"newpth"
+			],
+			[
+				"rea",
+				"resetAttempts"
+			],
+			[
+				"GhoS",
+				"GhostStates"
+			],
+			[
+				"Gost",
+				"GhostStates"
+			],
+			[
+				"init",
+				"initCfgString"
+			],
+			[
+				"ini",
+				"initializeGhosts"
+			],
+			[
+				"reads",
+				"readsPrec"
+			],
+			[
+				"Pacman",
+				"PacmanConfig"
+			],
+			[
+				"confi",
+				"configuration"
+			],
+			[
+				"co",
+				"collapsePath"
+			],
+			[
+				"c",
+				"collapse"
+			],
+			[
+				"Path",
+				"PathShort"
+			],
+			[
+				"ghost",
+				"ghostToLoc"
+			],
+			[
+				"fp",
+				"fastestPath"
+			],
+			[
+				"path",
+				"pathsBetween"
+			],
+			[
+				"dij",
+				"dijkstra_"
+			],
+			[
+				"in",
+				"intermediate"
+			],
+			[
+				"exp",
+				"expandFor"
+			],
+			[
+				"String",
+				"StringFormat"
+			],
+			[
+				"JS",
+				"JSONSim"
+			],
+			[
+				"gh",
+				"ghostsPos"
+			],
+			[
+				"forma",
+				"formatList"
+			],
+			[
+				"node",
+				"nodeX"
+			],
+			[
+				"show",
+				"showY"
+			],
+			[
+				"noth",
+				"nothingtoken"
+			],
+			[
+				"Pacma",
+				"PacmanConfig"
+			],
+			[
+				"unsa",
+				"unsafeAddGhostLocation"
+			],
+			[
+				"m",
+				"main	Main"
+			],
+			[
+				"unsafeSetPa",
+				"unsafeSetPacmanSource"
+			],
+			[
+				"setP",
+				"setPlayfield"
+			],
+			[
+				"setPaT",
+				"setPacmanTarget"
+			],
+			[
+				"Att",
+				"Attributed"
+			],
+			[
+				"Pacm",
+				"PacmanConfig"
+			],
+			[
+				"some",
+				"somesep"
+			],
+			[
+				"gramm",
+				"grammarEndStatement"
+			],
+			[
+				"na",
+				"natural"
+			],
+			[
+				"key",
+				"keyword"
+			],
+			[
+				"graS",
+				"grammarAttrSource"
+			],
+			[
+				"gra",
+				"grammarChainSep"
+			],
+			[
+				"graA",
+				"grammarAttrDef"
+			],
+			[
+				"att",
+				"attributes"
+			],
+			[
+				"grammarA",
+				"grammarAttrOpen"
+			],
+			[
+				"adT",
+				"addTunnel"
+			],
+			[
+				"ad",
+				"addTunnel"
+			],
+			[
+				"BS",
+				"BSTEmpty"
+			],
+			[
+				"inner",
+				"innerLoop"
+			],
+			[
+				"AM",
+				"AMEmpty"
+			],
+			[
+				"BSt",
+				"BSTGraph"
+			],
+			[
+				"insert",
+				"insertTriplet"
+			],
+			[
+				"ise",
+				"insertEdge"
+			],
+			[
+				"BSE",
+				"BSTEmpty"
+			],
+			[
+				"B",
+				"BSTGraph"
+			],
+			[
+				"ve",
+				"velocity"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"dir",
+				"direction"
+			],
+			[
+				"f",
+				"force"
+			],
+			[
+				"cou",
+				"coulomb"
+			],
+			[
+				"N",
+				"NodeData"
+			],
+			[
+				"di",
+				"direction"
+			],
+			[
+				"Empty",
+				"EmptyTree"
+			],
+			[
+				"tref",
+				"treeFilter"
+			],
+			[
+				"trefi",
+				"treeFindSubtree"
+			],
+			[
+				"q2",
+				"q2Pos"
+			],
+			[
+				"q1",
+				"q1Pos"
+			],
+			[
+				"q3",
+				"q3Pos"
+			],
+			[
+				"ma",
+				"magnitude"
+			],
+			[
+				"conve",
+				"convertToDegree"
+			],
+			[
+				"ang",
+				"angle"
+			],
+			[
+				"makeF",
+				"makeFromDataList"
+			],
+			[
+				"read",
+				"readTotal"
+			],
+			[
+				"short",
+				"shortenLine"
+			],
+			[
+				"le",
+				"lengthen"
+			],
+			[
+				"dist",
+				"distance"
+			],
+			[
+				"toP",
+				"toPsP"
+			],
+			[
+				"make",
+				"makeEdgeLookup"
+			],
+			[
+				"cr",
+				"createForNodes"
+			],
+			[
+				"va",
+				"value_"
+			],
+			[
+				"AMG",
+				"AMGRAPH"
+			],
+			[
+				"Matr",
+				"Matrix_"
+			],
+			[
+				"vis",
+				"visited"
+			],
+			[
+				"reco",
+				"recordChange"
+			],
+			[
+				"L",
+				"LabelDistances"
+			],
+			[
+				"Inf",
+				"Infinity"
+			],
+			[
+				"plan",
+				"plainNumber"
+			],
+			[
+				"In",
+				"Infinity"
+			],
+			[
+				"dista",
+				"distances"
+			],
+			[
+				"I",
+				"Infinite"
+			],
+			[
+				"tre",
+				"treeMapFilter"
+			],
+			[
+				"ne",
+				"neighbours"
+			],
+			[
+				"tree",
+				"treeMap"
+			],
+			[
+				"label",
+				"labelCompare"
+			],
+			[
+				"Labe",
+				"LabeledList"
+			],
+			[
+				"Lab",
+				"LabeledList"
+			],
+			[
+				"sing",
+				"singletonGraph"
+			],
+			[
+				"readP",
+				"readPair"
+			],
+			[
+				"to",
+				"toList"
+			],
+			[
+				"tr",
+				"treeInsert"
+			],
+			[
+				"n2",
+				"node2"
+			],
+			[
+				"new",
+				"newnodes"
+			],
+			[
+				"sin",
+				"singletonGraph"
+			],
+			[
+				"no",
+				"node"
+			],
+			[
+				"mak",
+				"makePattern"
+			],
+			[
+				"n1",
+				"n1"
+			],
+			[
+				"ins",
+				"insertEdge"
+			],
+			[
+				"gd",
+				"gda"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/parser.pl",
+			"settings":
+			{
+				"buffer_size": 194,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/main.pl",
+			"settings":
+			{
+				"buffer_size": 5011,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/examples/2pairs_incomplete.txt",
+			"settings":
+			{
+				"buffer_size": 81,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/src/examples/2pairs.txt",
+		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/src/examples/2pairs_incomplete.txt",
+		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/src/reverse.pl",
+		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/prolog-project.sublime-project",
+		"/C/Users/Kenny/AppData/Roaming/Sublime Text 2/Packages/User/Perl.sublime-settings",
+		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/src/examples/5pairs.txt",
+		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/src/examples/2pairs_ties.txt",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Pacman/Core/Simulation.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Pacman/Export.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Pacman/PacmanConfig.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Pacman/Core/Playfield.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/configuration.dot",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/output.json",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Graph/Core/BinarySearchTree.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Util/Matrix.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Pacman.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Graph/Algorithms/FindPaths.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Graph/Core/AdjacencyMatrix.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Graph/Core/Class.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Util/BinaryTree.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/conctest.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Util/Format.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Util/Parser.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Util/Point.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Graph/Algorithms/ForceLayout.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Graph/Algorithms/Dijkstra.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Graph/Algorithms/ToPSTricks.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/conctest.hi",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Util/ShowFormat.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Pause.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Util/StringBuilder.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Pacman/Parsing/PacmanConfig.hs",
+		"/C/Users/Kenny/Downloads/solutions09.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Pacman/Parsing/DotParser.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Test.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Pacman/Base.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Pacman/Parsing/Core.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Graph/Core/Core.hs",
+		"/C/Users/Kenny/Downloads/Parser.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/Graph/BinarySearchTree.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Git/haskell-project/part 2/src/ForceLayout.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/Functional Programming/FP-assignment1/src/Graph/BinarySearchTree.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/Functional Programming/FP-assignment1/src/Util/BinaryTree.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/Functional Programming/FP-assignment1/src/Util/Point.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Util/Point.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/ForceLayout.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Test.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/ToPSTricks.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Graph/Core.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Graph/BinarySearchTree.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Util/BinaryTree.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Util/Simple.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Geometry/Simple.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Dijkstra.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Geometry/SimpleArithmetic.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Geometry/Line.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Graph/AdjacencyMatrix.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/fp-assignment1.sublime-project",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/Graph/LabeledList.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/graph-core.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/graph-adjacency-matrix.hs",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/src/graph-adjacency-matrix",
+		"/C/Users/Kenny/Documents/Workspaces/Projects/FP-assignment1/doc/project.pdf",
+		"/C/Windows/start.vbs"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Men",
+			"autocomplete_list",
+			"member",
+			"List",
+			"write",
+			"parse_one_prefs",
+			"parse_all_prefs",
+			"Rest",
+			"convertArgList",
+			"parse_prefs",
+			"person",
+			"MAN",
+			"man",
+			"man1",
+			"MAN",
+			"NewRank",
+			"Newrank",
+			"NewRank",
+			"X",
+			"exportJSON",
+			"configuring",
+			"settings",
+			"readConfiguration",
+			"pathToFile",
+			"endedAt",
+			"startedAt",
+			"fullSimulation",
+			"getBestRemainingPath",
+			"remainingAvailablePaths",
+			"BlockablePath",
+			"runningThreads",
+			"tc",
+			"update",
+			"updateGhostForPath",
+			"updateGhost",
+			"ghostReset",
+			"1",
+			"update",
+			"stps",
+			"dist",
+			"dispth",
+			"initialize",
+			" \n",
+			"initialize",
+			"file",
+			"path",
+			"config",
+			"folding",
+			"ghost",
+			"Ghost",
+			"ghost",
+			"Ghost",
+			"ghost",
+			"current",
+			"insertNode",
+			"numberOf",
+			"containsNode",
+			"type",
+			"ShortPath",
+			"Path",
+			"path",
+			"Path",
+			"FullPath",
+			"Path",
+			"path",
+			"Path",
+			"path",
+			"Path",
+			"path",
+			"Path",
+			"getRowIndices",
+			"square",
+			"values",
+			"pathsBetween",
+			"loc1",
+			"Int",
+			"distance",
+			"convertToNum",
+			"getDistance",
+			"toIndex",
+			"srcIndex",
+			"getDistance",
+			"convertToNum",
+			"getDistance",
+			"dist",
+			"Q",
+			"paths",
+			"graph",
+			"target",
+			"path",
+			"current",
+			"[n]",
+			"nbrs",
+			"B",
+			"formatList",
+			"Format",
+			"writePsP",
+			"psp",
+			"tunnels",
+			"pattern",
+			"wildcard",
+			"sortLayout",
+			"loc",
+			"loc1",
+			"Distance",
+			"Location",
+			"*",
+			"POS",
+			"JSONEdge",
+			"nodeY",
+			"nodeX",
+			"JSONNode",
+			"JSONEdge",
+			"f",
+			"Format",
+			"ShowFormat",
+			"showf",
+			"functions",
+			"Start",
+			"showStartPos",
+			"start",
+			"e",
+			"printf",
+			"wildcard",
+			"bar",
+			"s'",
+			"inbetween",
+			"after"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/parser.pl",
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Prolog/Prolog.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/main.pl",
+					"settings":
+					{
+						"buffer_size": 5011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4493,
+								4493
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Prolog/Prolog.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1970.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/examples/2pairs_incomplete.txt",
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"2",
+				"examples/2pairs_incomplete.txt"
+			],
+			[
+				"re",
+				"reverse.pl"
+			],
+			[
+				"ex",
+				"src/Pacman/Export.hs"
+			],
+			[
+				"pa",
+				"src/Pacman.hs"
+			],
+			[
+				"pc",
+				"src/Pacman/PacmanConfig.hs"
+			],
+			[
+				"e",
+				"src/Pacman/Export.hs"
+			],
+			[
+				"exp",
+				"src/Pacman/Export.hs"
+			],
+			[
+				"bs",
+				"src/Graph/Core/BinarySearchTree.hs"
+			],
+			[
+				"pac",
+				"src/Pacman/PacmanConfig.hs"
+			],
+			[
+				"con",
+				"src/configuration.dot"
+			],
+			[
+				"co",
+				"src/configuration.dot"
+			],
+			[
+				"ad",
+				"src/Graph/Core/AdjacencyMatrix.hs"
+			],
+			[
+				"pcc",
+				"src/Pacman/PacmanConfig.hs"
+			],
+			[
+				"cl",
+				"src/Graph/Core/Class.hs"
+			],
+			[
+				"c",
+				"src/Graph/Core/Class.hs"
+			],
+			[
+				"bin",
+				"src/Util/BinaryTree.hs"
+			],
+			[
+				"findp",
+				"src/Graph/Algorithms/FindPaths.hs"
+			],
+			[
+				"m",
+				"src/Util/Matrix.hs"
+			],
+			[
+				"pl",
+				"src/Pacman/Core/Playfield.hs"
+			],
+			[
+				"fin",
+				"src/Graph/Algorithms/FindPaths.hs"
+			],
+			[
+				"for",
+				"src/Util/Format.hs"
+			],
+			[
+				"par",
+				"src/Util/Parser.hs"
+			],
+			[
+				"po",
+				"src/Util/Point.hs"
+			],
+			[
+				"forc",
+				"src/Graph/Algorithms/ForceLayout.hs"
+			],
+			[
+				"d",
+				"src/Graph/Algorithms/Dijkstra.hs"
+			],
+			[
+				"fi",
+				"src/Graph/Algorithms/FindPaths.hs"
+			],
+			[
+				"dij",
+				"src/Graph/Algorithms/Dijkstra.hs"
+			],
+			[
+				"to",
+				"src/Graph/Algorithms/ToPSTricks.hs"
+			],
+			[
+				"cla",
+				"src/Graph/Core/Class.hs"
+			],
+			[
+				"path",
+				"src/Graph/Algorithms/FindPaths.hs"
+			],
+			[
+				"pacc",
+				"src/Pacman/PacmanConfig.hs"
+			],
+			[
+				"am",
+				"src/Graph/Core/AdjacencyMatrix.hs"
+			],
+			[
+				"b",
+				"src/Graph/Core/BinarySearchTree.hs"
+			],
+			[
+				"bst",
+				"src/Graph/Core/BinarySearchTree.hs"
+			],
+			[
+				"bt",
+				"src/Util/BinaryTree.hs"
+			],
+			[
+				"bi",
+				"src/Util/BinaryTree.hs"
+			],
+			[
+				"l",
+				"src/Graph/Algorithms/ForceLayout.hs"
+			],
+			[
+				"form",
+				"src/Util/Format.hs"
+			],
+			[
+				"top",
+				"src/Graph/Algorithms/ToPSTricks.hs"
+			],
+			[
+				"p",
+				"src/Util/Parser.hs"
+			],
+			[
+				"fo",
+				"src/Graph/Algorithms/ForceLayout.hs"
+			],
+			[
+				"te",
+				"src/Test.hs"
+			],
+			[
+				"do",
+				"src/Pacman/Parsing/DotParser.hs"
+			],
+			[
+				"a",
+				"src/Graph/Core/AdjacencyMatrix.hs"
+			],
+			[
+				"di",
+				"src/Graph/Algorithms/Dijkstra.hs"
+			],
+			[
+				"s",
+				"src/Util/Simple.hs"
+			],
+			[
+				"f",
+				"fp-assignment1.sublime-project"
+			],
+			[
+				"ll",
+				"src/Graph/LabeledList.hs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
