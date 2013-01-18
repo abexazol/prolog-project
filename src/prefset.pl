@@ -145,3 +145,20 @@
 		parse_women(W, Women),
 		parse_prefs(P, Preferences),
 		autocomplete_prefs([Men, Women, Preferences], Prefset).
+
+	% % % % % % % % % % % % % % % % % % % % % % % % % % %
+	% rank_for/rank: gets the rank that Name gives to
+	% Othername.
+
+	rank_for(Name, Rank, [_, Prefs]) :-
+		member({Rank, Name}, Prefs).
+
+	rank([_, _, Preferences], Name, Othername, Rank) :-
+		member([Name, Prefs], Preferences),
+		rank_for(Othername, Rank, [Name, Prefs]).
+
+	% % % % % % % % % % % % % % % % % % % % % % % % % % %
+	% men/women: two simple "getters".
+
+	men([Men, _, _], Men).
+	women([_, Women, _], Women).

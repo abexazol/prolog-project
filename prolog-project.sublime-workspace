@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"co",
+				"couple_all"
+			],
+			[
+				"rank",
+				"rank_for"
+			],
+			[
+				"Co",
+				"Couples"
+			],
+			[
+				"from",
+				"from_stream"
+			],
+			[
+				"aut",
+				"autocomplete_prefs"
+			],
+			[
 				"Pre",
 				"Prefsmodif"
 			],
@@ -114,10 +134,6 @@
 			[
 				"confi",
 				"configuration"
-			],
-			[
-				"co",
-				"collapsePath"
 			],
 			[
 				"c",
@@ -504,26 +520,29 @@
 	"buffers":
 	[
 		{
-			"file": "src/parser.pl",
-			"settings":
-			{
-				"buffer_size": 194,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/main.pl",
 			"settings":
 			{
-				"buffer_size": 5011,
+				"buffer_size": 656,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/examples/2pairs_incomplete.txt",
+			"contents": "% % % % % % % % % % % % % % % % % % % % % % % % % % %\n% Declarative Programming Project: Stable Matchings %\n% Kenny Deschuyteneer                               %\n% marriage.pl                                       %\n% % % % % % % % % % % % % % % % % % % % % % % % % % %\n\n% :- module(marriage, []).\n\n\n% COUPLING\n% % % % % % % % % % % % % % % % % %\n\n	% % % % % % % % % % % % % % % % % % % % % % % % % % % % %\n	% couple/couple_backup/couple_all: fully joins two lists.\n\n	couple(Man, Woman, {Man, Woman}).\n\n	couple_backup([], _, _, []).\n\n	couple_backup([_|Men], [], Original, Couples) :-\n		couple_backup(Men, Original, Original, Couples).\n\n	couple_backup([Man|Men], [Woman|Women], Original, [Couple|Couples]) :-\n		couple(Man, Woman, Couple),\n		couple_backup([Man|Men], Women, Original, Couples).\n\n	couple_all(Men, Women, Result) :-\n		couple_backup(Men, Women, Women, Result).\n\n	% % % % % % % % % % % % % % % % % % % % % %\n	% decouple: removes a couple from the list.\n\n	decouple(Man, Woman, Couples, Result) :-\n		delete(Couples, {Man, Woman}, Result).\n\n\n% THE ALGORITHM\n% % % % % % % % % % % % % % % % % %\n\n	% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %\n	% remove_bad_couples(INCOMPLETE): applies the given stability\n	% check on the given couple for all other couples.\n\n	remove_bad_couples(Stabilitycheck, Prefset, Man1, Woman1, [{Man2, Woman2}|Couples], Result) :-\n		rank(Prefset, Man1, Woman1, AB),\n		rank(Prefset, Man1, Woman1, CD),\n		rank(Prefset, Man1, Woman2, AD),\n		rank(Prefset, Woman1, Man1, DA),\n		call(Stabilitycheck, AB, CD, AD, DA).\n\n	remove_bad_couples(Stabilitycheck, Prefset, Man1, Woman1, [{Man2, Woman2}|Couples], Result) :-\n		rank(Prefset, Man1, Woman1, AB),\n		rank(Prefset, Man1, Woman1, CD),\n		rank(Prefset, Man1, Woman2, AD),\n		rank(Prefset, Woman1, Man1, DA),\n		not(call(Stabilitycheck, AB, CD, AD, DA)),\n		decouple(Man1, Woman1, Couples, Result).\n\n\n	% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %\n	% stable_coupling: the stable coupling algorithm returns all\n	% possible stable couples from a given preference set.\n\n	stable_coupling(Prefset, Couples) :-\n		men(Prefset, Men),\n		women(Prefset, Women),\n		couple_all(Men, Women, Couples),\n		remove_bad_couples(super_stability, Prefset, (men Prefset), (women Prefset), .\n\n	% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %\n	% super_stability/strong_stability/weak_stability: if {A, B}\n	% and {C, D} are couples, then is AB the rank that A gives to\n	% B, CD the rank C gives to D, AD the rank A gives to C and\n	% DA the rank D gives to A.\n\n	super_stability(AB,CD,AD,DA) :- \\+ (AD >= AB, DA >= CD).\n\n	strong_stability(AB,CD,AD,DA) :- \\+ (AD > AB, DA >= CD).\n\n	weak_stability(AB,CD,AD,DA) :- \\+ (AD > AB, DA > CD).\n",
+			"file": "src/marriage.pl",
+			"file_size": 2717,
+			"file_write_time": 130019842814496589,
 			"settings":
 			{
-				"buffer_size": 81,
+				"buffer_size": 2719,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/prefset.pl",
+			"settings":
+			{
+				"buffer_size": 5528,
 				"line_ending": "Windows"
 			}
 		}
@@ -556,8 +575,10 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/src/examples/2pairs.txt",
+		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/README.txt",
 		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/src/examples/2pairs_incomplete.txt",
+		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/src/examples/2pairs.txt",
+		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/src/parser.pl",
 		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/src/reverse.pl",
 		"/C/Users/Kenny/Documents/Workspaces/Git/prolog-project/prolog-project.sublime-project",
 		"/C/Users/Kenny/AppData/Roaming/Sublime Text 2/Packages/User/Perl.sublime-settings",
@@ -637,6 +658,51 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"AC",
+			"CA",
+			"AC",
+			"C",
+			"D",
+			"C",
+			"Y",
+			"y",
+			"Y",
+			"y",
+			"Y",
+			"X",
+			"B",
+			"b",
+			"B",
+			"b",
+			"B",
+			"A",
+			"a",
+			"A",
+			"a",
+			"A",
+			"a",
+			"A",
+			"a",
+			"A",
+			"X",
+			"x",
+			"X",
+			"XY",
+			"Men",
+			"X",
+			"rank",
+			"_",
+			"all",
+			"XY",
+			"r",
+			"R",
+			"r",
+			"R",
+			"r",
+			"R",
+			"main",
+			"|",
+			"Women",
 			"Men",
 			"autocomplete_list",
 			"member",
@@ -719,52 +785,7 @@
 			"toIndex",
 			"srcIndex",
 			"getDistance",
-			"convertToNum",
-			"getDistance",
-			"dist",
-			"Q",
-			"paths",
-			"graph",
-			"target",
-			"path",
-			"current",
-			"[n]",
-			"nbrs",
-			"B",
-			"formatList",
-			"Format",
-			"writePsP",
-			"psp",
-			"tunnels",
-			"pattern",
-			"wildcard",
-			"sortLayout",
-			"loc",
-			"loc1",
-			"Distance",
-			"Location",
-			"*",
-			"POS",
-			"JSONEdge",
-			"nodeY",
-			"nodeX",
-			"JSONNode",
-			"JSONEdge",
-			"f",
-			"Format",
-			"ShowFormat",
-			"showf",
-			"functions",
-			"Start",
-			"showStartPos",
-			"start",
-			"e",
-			"printf",
-			"wildcard",
-			"bar",
-			"s'",
-			"inbetween",
-			"after"
+			"convertToNum"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -787,23 +808,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/parser.pl",
+					"file": "src/main.pl",
 					"settings":
 					{
-						"buffer_size": 194,
+						"buffer_size": 656,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								116,
-								116
+								528,
+								528
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Prolog/Prolog.tmLanguage"
+							"auto_name": "",
+							"syntax": "Packages/Prolog/Prolog.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -813,53 +836,54 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/main.pl",
+					"file": "src/marriage.pl",
 					"settings":
 					{
-						"buffer_size": 5011,
+						"buffer_size": 2719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4493,
-								4493
+								550,
+								550
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Prolog/Prolog.tmLanguage"
+							"syntax": "Packages/Prolog/Prolog.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1970.0,
+						"translation.y": 222.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/examples/2pairs_incomplete.txt",
+					"file": "src/prefset.pl",
 					"settings":
 					{
-						"buffer_size": 81,
+						"buffer_size": 5528,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2414,
+								2414
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Prolog/Prolog.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2445.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
